@@ -1,0 +1,39 @@
+# 敏感信息
+.token
+*.token
+.env
+.env.*
+mcp-config.json
+
+# 实测产物（含账号数据，不提交）
+TEST_OUTPUT/
+tools.json
+sample.json
+calc*.json
+order*.json
+nutrition.json
+selected.json
+total*.json
+lottery*.json
+price*.json
+account_*.json
+before.json
+after.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 二维码临时产物
+.qr*.txt
+.qr*.svg
+.crun/
+.qo.txt
